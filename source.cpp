@@ -13,5 +13,9 @@ int main(){
     char thischar = 'a';
     std::cout<<"this is char :"<<thischar<<"\n";
     //sizeof operator gives the bytes of an object
-    
+    std::cout<<"enter a char , num and double value";
+    int num;
+    double d;
+    std::cin>>thischar>>num>>d;
+    std::cout<<"you entered: \n"<<thischar<<"\n"<<num<<"\n"<<d<<"\n";
 }
