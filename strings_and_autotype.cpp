@@ -26,4 +26,6 @@ int main(){
 
     // auto key specifier helps in auto deduction of the type of the variable, it deduces based on initializer type
     auto ch = 'a';
+    std::cout<<state.substr(0, 8)<<"\n";
+    std::cout<<ch<<"\n";
 }
